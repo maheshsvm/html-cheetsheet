@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@600&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(17 24 39);
+  color: white;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(31 41 55);
+  height: 80px;
+  font-family: "Chivo Mono", monospace;
+  font-size: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.logo {
+  width: 70px;
+  filter: brightness(180%);
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  padding: 10px 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 35px;
+}
+
+.toolbar-item button {
+  border: 1px solid white !important;
+  cursor: pointer !important;
+  padding: 0 10px !important;
+}
+
+.section {
+  margin: 30px 0;
+}
+
+.section h1 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.section h3 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
